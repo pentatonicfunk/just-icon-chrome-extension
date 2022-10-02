@@ -1,0 +1,15 @@
+{
+  "name": "just-icons-chrome-extension",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "icons-resize": "node scripts/icons-resize.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "glob": "^8.0.3",
+    "sharp": "^0.31.1"
+  }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Just Icons",
+    "description": "Extension that let you customize it's icons. Does nothing else.",
+    "version": "1.0",
+    "manifest_version": 3,
+    "permissions": ["storage"],
+    "options_page": "options.html",
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "16": "/assets/icons/build/avatar_bonbon_brave-16.png",
+            "32": "/assets/icons/build/avatar_bonbon_brave-32.png",
+            "48": "/assets/icons/build/avatar_bonbon_brave-48.png",
+            "128": "/assets/icons/build/avatar_bonbon_brave-128.png"
+        }
+    },
+    "icons": {
+      "16": "/assets/icons/build/avatar_bonbon_brave-16.png",
+      "32": "/assets/icons/build/avatar_bonbon_brave-32.png",
+      "48": "/assets/icons/build/avatar_bonbon_brave-48.png",
+      "128": "/assets/icons/build/avatar_bonbon_brave-128.png"
+    },
+    "background": {
+        "service_worker": "background.js"
+    }
+}
